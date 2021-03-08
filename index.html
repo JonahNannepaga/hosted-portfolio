@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonah's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <script src="/plugin.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#introduction" tabindex="0"
+              ><span class="hover-text">Introduction</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#skills"><span class="hover-text">Skills</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects"><span class="hover-text">Projects</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#about-me"><span class="hover-text">About</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact"><span class="hover-text">Contact</span></a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="social-media">
+        <a href="https://www.linkedin.com/in/jonah-nannepaga/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/jonahnannepaga" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/JonahNannepaga" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.youtube.com/channel/UCEJc226GwMRkP0WdYgVROLg/videos" target="_blank"><i class="fab fa-youtube"></i></a>
+        
+      </nav> 
+    </header>
+    <main>
+      <section class="intro" id="introduction">
+        <div class="heading-intro">
+          <h1 class="greeting">Hello!</h1>
+        </div>
+        <h3 class="greeting-sub">My name is <span class="highlight">Jonah</span></h3>
+        <h3 class="greeting-sub">I am a <span class="highlight">front end web developer</span></h3>
+        <a href="#about-me" class="global-btn"
+          >about me<span aria-hidden="true">about me</span></a
+        >
+      </section>
+
+      <section class="skillset" id="skills">
+        <div class="skillset__text">
+          <h2>Skills</h2>
+          <div class="background-white">
+          <p>
+            The main area of my expertise is front end development (client side
+            of the web), majorly includes HTML, CSS, JS, jQuery, building small
+            and medium web apps with React, Vue, custom plugins, features,
+            animations, and coding interactive layouts.
+          </p>
+          <p>
+            I have full-stack developer experience with CMS like AEM 6.5 (Adobe
+            Experience Manager) and Drupal 8 (open source).
+          </p>
+          <p>
+            I also have some exposure to MERN stack (Mongodb-Express-React-Node)
+          </p>
+          </div>
+        </div>
+
+        <div class="skillset__canvas">
+          <div id="myCanvasContainer">
+            <canvas width="500" height="500" id="myCanvas">
+              <ul>
+                <li>
+                  <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"
+                    >HTML 5</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="25"
+                    href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets"
+                    target="_blank"
+                    tab-index="-1"
+                    >CSS 3</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="25"
+                    href="https://en.wikipedia.org/wiki/JavaScript"
+                    target="_blank"
+                    tab-index="-1"
+                    >JavaScript</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="25"
+                    href="https://en.wikipedia.org/wiki/JavaScript"
+                    target="_blank"
+                    tab-index="-1"
+                    >ES6</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="24"
+                    href="https://en.wikipedia.org/wiki/Representational_state_transfer"
+                    target="_blank"
+                    tab-index="-1"
+                    >Mongo DB</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="14"
+                    href="https://en.wikipedia.org/wiki/JSON"
+                    target="_blank"
+                    tab-index="-1"
+                    >JSON</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="13"
+                    href="https://en.wikipedia.org/wiki/XML"
+                    target="_blank"
+                    tab-index="-1"
+                    >Redux</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="27"
+                    href="https://en.wikipedia.org/wiki/AngularJS"
+                    target="_blank"
+                    tab-index="-1"
+                    >React</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="26"
+                    href="https://en.wikipedia.org/wiki/WordPress"
+                    target="_blank"
+                    tab-index="-1"
+                    >Drupal 8</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    data-weight="21"
+                    href="https://en.wikipedia.org/wiki/Node.js"
+                    target="_blank"
+                    tab-index="-1"
+                    >Node + Express</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="17"
+                    href="https://en.wikipedia.org/wiki/Git"
+                    target="_blank"
+                    tab-index="-1"
+                    >Git</a
+                  >
+                </li>
+                <li>
+                  <a data-weight="17" href="" target="_blank" tab-index="-1"
+                    >Google Analytics</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="23"
+                    href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"
+                    target="_blank"
+                    tab-index="-1"
+                    >Bootstrap</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="15"
+                    href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)"
+                    target="_blank"
+                    tab-index="-1"
+                    >SASS</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="20"
+                    href="https://en.wikipedia.org/wiki/Responsive_web_design"
+                    target="_blank"
+                    tab-index="-1"
+                    >AEM 6.5</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="19"
+                    href="https://en.wikipedia.org/wiki/JQuery"
+                    target="_blank"
+                    tab-index="-1"
+                    >jQuery</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="19"
+                    href="http://mongoosejs.com/"
+                    target="_blank"
+                    tab-index="-1"
+                    >Data Layer</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="19"
+                    href="https://karma-runner.github.io/1.0/index.html"
+                    target="_blank"
+                    tab-index="-1"
+                    >Vue</a
+                  >
+                </li>
+                <li>
+                  <a data-weight="19" href="http://gulpjs.com/" target="_blank" tab-index="-1"
+                    >Gulp</a
+                    
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="19"
+                    href="https://www.npmjs.com/"
+                    target="_blank"
+                    tab-index="-1"
+                    >npm</a
+
+                  >
+                </li>
+                <li>
+                  <a data-weight="19" href="https://bower.io/" target="_blank" tab-index="-1"
+                    >Google Maps API</a
+                  >
+                </li>
+                <li>
+                  <a
+                    data-weight="19"
+                    href="https://en.wikipedia.org/wiki/BEM"
+                    target="_blank"
+                    tab-index="-1"
+                    >BEM</a
+                  >
+                </li>
+              </ul>
+            </canvas>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section" id="projects">
+          <div class="projects-section__header">
+            <h2>Projects</h2>
+          </div>
+        
+        <div class="projects-section__wrapper">
+
+          <a
+            href="https://www.tadigital.com"
+            target="_blank"
+            class="project-item"
+          >
+            <img
+              src="./assets/tadigitalwebsite.png"
+              alt="TA Digital Website"
+            />
+          </a>
+          <a
+            href="https://www.serviceking.com/"
+            target="_blank"
+            class="project-item"
+          >
+            <img src="./assets/servicekingwebsite.png" alt="Service King website" />
+          </a>
+          <a
+            href="https://jonahnannepaga.github.io/React-prototype/"
+            target="_blank"
+            class="project-item"
+          >
+            <img
+              src="./assets/React-prototype-App.png"
+              alt="React Prototype App"
+            />
+          </a>
+          <a
+            href="https://treasure-hunt-chai.now.sh/"
+            target="_blank"
+            class="project-item"
+          >
+            <img
+              src="./assets/Treasure-Game-leafletJS.png"
+              alt="Leaflet JS treasure game"
+            />
+          </a>
+          <a
+            href="https://quiz-react-mei.web.app/"
+            target="_blank"
+            class="project-item"
+          >
+            <img src="./assets/Quiz-Game-react.png" alt="Quiz Game in React" />
+          </a>
+        </div>
+      </section>
+
+      <section class="about-section" id="about-me">
+       <div class="about-header"> 
+         <h2>About Me</h2>
+         <div class="about-section__photo"><img src="./assets/github-profile.jpg" alt="my image" /></div>
+       </div>    
+
+        <!-- <a href="#" class="global-btn">Cta button<span aria-hidden="true">Cta button</span></a> -->
+        <div class="background-white">
+          <p>
+            Hi, I am Jonah Nannepaga, a 23 year old Web developer living in Hyderabad, India. I am a Computer Science Engineer, currently working at TA digital with 2+ years of experience in front-end development.
+          </p>
+          <p>
+            I am also a guitarist and vocalist with intrests in sound engineering and production. My hobbies include recording acoustic covers. Do check out my youtube channel ! <a href="https://www.youtube.com/channel/UCEJc226GwMRkP0WdYgVROLg/videos" target="_blank">here</a>
+          </p>
+        </div>
+       
+   
+
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-section__header">
+          <h2>Contact</h2>
+            <p>Let's connect and make web better</p>
+            <p>I am always excited to work on some awesome projects, message me and let's discuss over tea.</p>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <fieldset>
+              <legend>Contact Form</legend>
+              <div class="contact-form__container">
+                  <input type="text" name="name" id="name-field" class="contact-form__input" autocomplete="no"
+                      placeholder=" " aria-label="Name" />
+                  <label for="name-field" class="contact-form__label">
+                      <span class="contact-form__content">Name</span>
+                  </label>
+              </div>
+              <div class="contact-form__container">
+                  <input type="email" name="email" id="email-field" placeholder=" " aria-label="Email" autocomplete="no" />
+                  <label for="email-field" class="contact-form__label">
+                      <span class="contact-form__content">Email</span>
+                  </label>
+              </div>
+              <div class="contact-form__container">
+                  <input type="tel" name="tel" id="phone-field" placeholder=" " aria-label="Phone" autocomplete="no"/>
+                  <label for="phone-field" class="contact-form__label">
+                      <span class="contact-form__content">Phone</span>
+                  </label>
+              </div>
+              <p class="contact-form__text">Type your message here below and send me:</p>
+              <div class="contact-form__container">
+                  <textarea placeholder="Message" name='message'></textarea>
+              </div>
+              <div class="contact-form__container contact-form__submit">
+                  <button type="submit" class="global-btn">Send<span aria-hidden="true">Send</span></button>
+              </div>
+          </fieldset>
+      </form>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
