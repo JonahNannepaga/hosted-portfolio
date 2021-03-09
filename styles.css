@@ -95,20 +95,6 @@ select {
   outline-offset: 2px;
 }
 
-/* Remove all animations and transitions for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    -webkit-animation-duration: 0.01ms !important;
-            animation-duration: 0.01ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-            animation-iteration-count: 1 !important;
-    -webkit-transition-duration: 0.01ms !important;
-            -o-transition-duration: 0.01ms !important;
-       transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
 ::-moz-selection {
   color: #000;
   background: #fff;
