@@ -855,6 +855,9 @@ h2.greeting-sub {
   .projects-section__wrapper .project-item:last-child {
     display: none;
   }
+  .projects-section__wrapper .project-item:nth-child(4) {
+    display: none;
+  }
 }
 
 .about-section {
